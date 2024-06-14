@@ -1,6 +1,6 @@
 import './App.css'
-import responseMovies from './mocks/with-results-json'
-import withoutResults from './mocks/no-results-json'
+import responseMovies from './mocks/with-results.json'
+import withoutResults from './mocks/no-results.json'
 
 function App () {
   const movies = responseMovies.Search
