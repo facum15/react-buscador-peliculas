@@ -5,6 +5,13 @@ import responseMovies from './mocks/with-results.json'
 function App () {
   const movies = responseMovies.Search
 
+  const mappedMovies = movies?.map(movie => ({
+    id: movie.imdbID,
+    title: movie.Title,
+    year: movie.Year,
+    poster: movie.Poster
+  }))
+
   return (
     <div className='page'>
 
@@ -17,7 +24,7 @@ function App () {
       </header>
 
       <main>
-        <Movies movies={movies} />
+        <Movies movies={mappedMovies} />
       </main>
     </div>
   )
