@@ -1,6 +1,14 @@
-## Buscador de películas
+<div align="center">
+  
+# Buscador de películas ⚛️
 
-Esta es una aplicación para buscar películas
+</div>
+
+<div align="center">
+<img width="50%" alt="Imagen de portada" src="https://github.com/user-attachments/assets/497110b8-ec64-4472-a2fd-7d38eeb40659" />
+</div>
+
+Esta es una aplicación para buscar películas.
 
 API a usar: - https://www.omdbapi.com/
 Consigue la API Key en la propia página web registrando tu email.
