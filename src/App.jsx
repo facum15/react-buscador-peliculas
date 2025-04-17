@@ -64,7 +64,8 @@ function App () {
     <div className='page'>
 
       <header>
-        <h1>Buscador de películas</h1>
+        <h1 align='center'>Buscador de películas</h1>
+        <img src='/logo.png' alt='logo' width='50%' />
         <form className='form' onSubmit={handleSubmit}>
           <input
             style={{
